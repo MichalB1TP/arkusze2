@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>INF.03-01-25.06-SG</h1>
+    <p><b>Dodaj nową grę</b></p>
+    <form>
+        <label for="nazwa">nazwa:</label>
+        <input type="text" id="nazwa" name="nazwa">
+        <br><br>
+        <label for="opis">opis:</label>
+        <input type="text" id="opis" name="opis">
+        <br><br>
+        <label for="cena">cena:</label>
+        <input type="text" id="cena" name="cena">
+        <br><br>
+        <label for="zdjecie">zdjęcie:</label>
+        <input type="text" id="zdjecie" name="zdjecie">
+        <br><br>
+        <input type="submit" value="DODAJ">
+        <br><br><br>
+        <input type="text" id="opis" name="opis">
+        <input type="submit" value="Pokaż opis">
+    </form>
+    <h1>INF.03-02-25.06-SG</h1>
+    <p><b>Moje zadania</b></p>
+    <form>
+        <input type="text" id="dodaj" name="dodaj" placeholder="Dodaj zadanie...">
+        <input type="submit" value="Dodaj">
+    </form>
+    <h1>INF.03-04-25.06-SG</h1>
+    <form>
+        <label for="zadanie">Zadanie do wykonania:</label>
+        <input type="text" id="zadanie" name="zadanie">
+        <br>
+        <label for="realizacja">Data realizacji:</label>
+        <input type="date"  id="realizacja" name="realizacja">
+        <input type="submit" value="Dodaj">
+    </form>
+    <h1>INF.03-05-25.06-SG</h1>
+    <form>
+        <label for="wybierz">Wybierz obraz:</label>
+        <input type="file" id="wybierz" name="wybierz" accept="image/*">
+        <br><br><br>
+        <label for="kopia">Liczba kopii:</label>
+        <input type="number" id="kopia" name="kopia" >
+        <br><br>
+        <input type="radio" id="drukuj" name="drukuj"> Papier błyszczący
+        <br>
+        <input type="radio" id="drukuj" name="drukuj"> Papier matowy
+        <br><br>
+        <input type="submit" value="Dodaj do koszyka">
+    </form>
+    <h1>INF.03-06-25.06-SG</h1>
+    <p><b>1 select starczy chyba ni?</b></p>
+    <form>
+        <select id="nie wiem" name="nie wiem">
+            <option value="Pieśń nad pieśniami">Pieśń nad pieśniami</option>
+            <option value="Bogurodzica">Bogurodzica</option>
+            <option value="Na dom w Czarnolesie">Na dom w Czarnolesie</option>
+            <option value="Sonety do Laury">Sonety do Laury</option>
+            <option value="Treny">Treny</option>
+        </select>
+        <input type="submit" value="Rezerwuj">
+    </form>
+    <h1>INF.03-07-25.06-SG</h1>
+    <P><b>Twoj cel wyprawy</b></P>
+    <br>
+    <form>
+    <select id="miejsce" name="miejsce">
+        <option value="Brno">Brno</option>
+        <option value="Brno2">Brno2</option>
+        <option value="Brno3">Brno3</option>
+        <option value="Brno4">Brno4</option>
+        <option value="Brno5">Brno5</option>
+    </select>
+    <br>
+    <label for="dorosli">Ile dorosłych?:</label>
+    <br>
+    <input type="number" id="dorosli"  name="dorosli">
+    <br>
+    <label for="dzieci">Ile dzieci?:</label>
+    <br>
+    <input type="number" id="dzieci"  name="dzieci">
+    <br>
+    <label for="termin">Termin:</label>
+    <input type="date" id="termin" name="termin">
+    <br>
+    <input type="submit" value="Symulacja ceny">
+    </form>
+    <h1>INF.03-08-25.06-SG</h1>
+    <p><b>Baza smoków</b></p>
+    <select id="smoki" name="smoki">
+        <option value="Bułgaria">Bułgaria</option>
+        <option value="Chiny">Chiny</option>
+        <option value="Francja">Francja</option>
+        <option value="Japonia">Japonia</option>
+        <option value="Polska">Polska</option>
+    </select>
+    <input type="submit" value="Szukaj">
+    <h1>INF.03-09-25.06-SG</h1>
+    <form>
+    <p><b>Dla klientów</b></p>
+    <label for="firma">Ilu co najmniej pracowników potrzebujesz?</label>
+    <br>
+    <input type="number" id="firma" name="firma">
+    <input type="submit" value="Szukaj firm">
+    <p><b>Dla wykonawców</b></p>
+    <select id="miasto" name="miasto">
+        <option value="Darłowo">Darłowo</option>
+        <option value="Kraków">Kraków</option>
+        <option value="Gdańsk">Gdańsk</option>
+        <option value="Wrocław">Wrocław</option>
+        <option value="Poznań">Poznań</option>
+    </select>
+    <br>
+    <input type="radio" id="typ" name="typ"> malowanie
+    <br>
+    <input type="radio" id="typ" name="typ"> gipsowanie
+    <br>
+    <input type="submit" value="Szukaj klientów">
+    </form>
+    <h1>INF.03-10-25.06-SG</h1>
+    <form>
+    <p><b>Zapisy na kursy</b></p>
+    <label for="imie">Imię</label>
+    <input type="text" id="imie" name="imie">
+    <br>
+    <label for="nazwisko">Nazwisko</label>
+    <input type="text" id="nazwisko" name="nazwisko">
+    <br>
+    <label for="wiek">Wiek</label>
+    <input type="number" id="wiek" name="wiek">
+    <br>
+    <label for="kurs">Rodzaj kursu</label>
+    <select id="kurs" name="kurs">
+        <option value="język angielski">język angielski</option>
+        <option value="język niemiecki">język niemiecki</option>
+        <option value="informatyka">informatyka</option>
+        <option value="florystyka">florystyka</option>
+        <option value="gastronomia">gastronomia</option>
+        <option value="język francuski">język francuski</option>
+        <option value="spawanie">spawanie</option>
+        <option value="rysunek techniczny">rysunek techniczny</option>
+    </select>
+    <br>
+    <input type="submit" value="Dodaj dane">
+</body>
+</html>
